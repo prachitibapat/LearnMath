@@ -1,0 +1,371 @@
+<html>
+<head>
+  <title>Division - LearnMath!</title>
+  <link rel="icon" href="icon.png">
+  <meta charset="UTF-8">
+  <meta name="description" content="Site to learn Math">
+  <meta name="keywords" content="Addition, Subtraction, Multiplication, Division">
+  <meta name="author" content="Anirudh Bhattacharya, Mink Shethia, Prachiti Bapat, Saumya Shah">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<center>
+<style>
+  body {
+      margin: 0;
+
+  font-size: 18px;
+  }
+  p.a {
+  white-space: nowrap;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.topnav {
+  
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: #a8e6ce;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #dcedc2;
+  color: black;
+}
+.UpperTitle
+{
+    text-align: center;
+    padding: 40px 0;
+    font-size: 36px;
+    background-color: #000000;
+    font-weight:bold;
+    color: #d6b600;
+    border-radius: 0px;
+    position: rela1tive;
+}
+.UpperTitle img { position: absolute; left: 15px; top: 25px; }
+
+  .button {
+  display: block;
+  padding: 10px 6px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #000000;
+  background-color: #ffd3b5;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 5px #999;
+}
+
+
+.button:hover {background-color: #ffaaa6}
+
+.button:active {
+  background-color: #fffff0;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  }
+
+
+
+  .button1 {
+  display: block;
+  padding: 10px 6px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #000000;
+  background-color: #FFFFff;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 5px #999;
+}
+
+
+
+
+  img {
+  float: center;
+}
+}
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.header {
+  background-color: #d6b600;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px
+  padding: 25px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #ffffff;
+  color: #ffffff;
+}
+
+.menu li:hover {
+  background-color: #ffffff;
+}
+
+.footer {
+  background-color: #00f1ef;
+  color: #000000;
+  text-align: center;
+  font-size: 16px;
+  padding: 1px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 15%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 15%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+table, th,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+td{
+  border: 1px solid black;
+  text-align: center;
+  font-size: 35px;
+}
+</style>
+</head>
+<body>
+
+ <div class="UpperTitle">
+     <img src="Logo.png" alt="Our logo" width="152.24" height="80"/> <!-- 1.903 ratio-->
+    LearnMath!
+</div>
+<div class="topnav" id="myHeader">
+  <a href="home.html">Home</a>
+  <a class="active" href="learn.html">Learn</a>
+  <a href="testsmarathi.html">Tests</a>
+  <a href="calculatormarathi.html">Calculator</a>
+  <a href="contact_final.html">Contact Us</a>
+  <a href="division.html">Learn in English!</a>
+</div>
+<p class="a">
+
+
+<div class="header">
+  <h1>Happy learning!</h1>
+</div>
+</center>
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+    <ul>
+      <li><a href="additionmarathi.html" class="button">बेरीज</a></li>
+      <li><a href="subtractionmarathi.html" class="button">वजाबाकी </a></li>
+      <li><a href="multiplicationmarathi.html" class="button">गुणाकार</a></li>
+      <li><a href="" class="button1">भागाकार </a></li>
+    </ul>
+  </div>
+
+  <div class="col-9 col-s-9">
+    <h1><p>भागाकार</p></h1> 
+    <h2><p>भागाकार म्हणजे गोष्टींचा समूह समान भागांमध्ये वितरित करण्याची एक पद्धत. हे अंकगणित चार मूलभूत ऑपरेशन्सपैकी एक आहे </p></h2>
+    <h2><p>भागाकार गुणाकाराचा व्यस्त असतो </p></h2>
+	<h2><p>जर  ४ वस्तूंचे  चे  ३ गट बनवले तर एकूण १२ वस्तू होतात.तसेच १२ वस्तुंना ३ गटात ठेवायचे असेल तर प्रत्येक गटात ४ वस्तू होतात </p>
+		</h2>
+	<h2><p>विभाकर चे मुख्य ध्येय आहे कि किती गटानंमध्ये दिलेली वस्तू मावत.
+	</p>
+		</h2>
+    
+
+    <p><b>१६ चेंडू आणि ४ पिशव्या आहेत.प्रत्येक पिशवीत किती चेंडू राहतील ?</b> </p>
+      <center><img src="d1.png" alt="Example" width="650" height="200"/></center>
+      <p>तर 16 ने 4 ने भाग केले = ?</p>
+      <center><img src="d3.png" alt="Example" width="400" height="200"/></center>
+
+    <p> म्हणून प्रत्येक बॉक्समध्ये 4 पिशवीत  ठेवावेत.</p>
+    <p class = "a">
+    <p> <b> भागासाठी गणिती संकेत 
+      भागाकारासाठी विविध चिन्हे वापरली जातात जसे ÷, /.
+</b> </p>
+<p style="color:#FFffff";>For example:</p>
+  <ul>
+  <li><p>8 ÷ 2 = 4</p></li>
+  <li><p>8 / 2 = 4</p></li>
+</ul>
+    <p><b>विभागातील प्रत्येक पात्राची खास नावे</b> </p>
+  <h1><p><i>लाभांश ÷ विभाजक = भाग</i> </p></h1>
+  <center><img src="d2.png" alt="Example" width="400" height="200"/></center>
+  <p>लाभांश: लाभांश ही संख्या आहे जी  प्रक्रियेत विभागली जात आहे.</p>
+  <p>विभाजक: ज्या संख्येने लाभांश विभाजित केला जातो त्याला विभाजक म्हणतात.</p>
+  <p>भाग: भाग म्हणजे प्रभाग प्रक्रियेत प्राप्त होणारा परिणाम.</p>
+  <p><b>शिल्लक:</b> </p>
+  <p>शिल्लक म्हणजे भागाकार केल्यावर मिळालेले उत्तर </p>
+  <p> <b>प्रथम संख्या दुसर्‍यापेक्षा मोठी असल्याचे गृहीत धरुन निकालाच्या चिन्हाचे  नियम :</b> </p>
+    <table style="width: 100%">
+    <tr>
+    <th><p>मोठ्या संख्येचे चिन्ह </th>
+    <th><p>लहान संख्येचे चिन्ह</th> 
+    <th><p>निकालाचे चिन्ह</th>
+   </tr>
+    <tr>
+    <td><p>+</td>
+    <td><p>+</td>
+    <td><p>+</td>
+    </tr>
+    <tr>
+    <td><p>+</td>
+    <td><p>-</td>
+    <td><p>-</td>
+    </tr>
+    <tr>
+    <td><p>-</td>
+    <td><p>+</td>
+    <td><p>-</td>
+    </tr>
+    <tr>
+    <td><p>-</td>
+    <td><p>-</td>
+    <td><p>+</td>
+    </tr></p>
+    </table>
+  <p> उदाहरणार्थ </p>
+  <p> 83/2 केल्यावर १ शिल्लक राहतो  </p>
+  <p>83 ÷ 2  = 41 </p>
+  <p> शिल्लक = 1 </p>
+  <p>उदाहरणार्थ</p>
+  <p>२ कुत्र्यांसाठी एकूण ७ हाडे आहेत.तर प्रत्येक कुत्र्याला किती हाडे मिळतील </p>
+  <p>७ ला २ गटात विभागले जाऊ शकत नाही कारण प्रत्येक कुत्र्याला ३ हाडे दिले तर एक हाड राहील (शुल्लक)</p>
+  <p>उदाहरण 2:</p>
+  <p>खाली दिलेल्या प्रतिमेत मोठ्या वाडग्यातून 14 मासे समान प्रमाणात दोन लहान कटोरेंमध्ये वितरित केले गेले आहेत.</p>
+  <center><img src="d4.png" alt="Example" width="600" height="400"/></center>
+  <p><b>पुनरावृत्ती वजाबाकी म्हणून विभाग येथे पाहिले जाऊ शकतात</b>. आपण पाहू शकता की मोठ्या वाडग्यात 14 मासे आहेत.</p>
+  <p style="color:#FFffff";>आम्ही त्यांना दोन लहान वाडग्यांमध्ये  समान प्रमाणात विभागले पाहिजे.</p>
+  <p style="color:#FFffff";>मोठ्या वाडग्यातून प्रत्येक मासा (वजाबाकी) घेऊन आणि त्यांना एका छोट्या वाटीत ठेवून, प्रत्येक लहान वाडग्यात आपल्याला 7 मासे मिळतात.</p>
+  <p><i>14÷2=7</i></p>
+  <p>उदाहरण 3:</p>
+  <p>आता या चॉकलेटच्या बारला  3 तुकडे करा.</p>
+  <center><img src="d5.png" alt="Example" width="600" height="400"/></center>
+  <p>चॉकलेटची बार विभागून, आम्हाला प्रत्येक भागामध्ये 4 तुकडे मिळतात.</p>
+  <center><img src="d6.png" alt="Example" width="600" height="400"/></center>
+  <p><i>12÷3=4 </i></p>
+  <p><b>विभाग नियम </b></p>
+  <ul>
+  	 <li><p>1 ने जेव्हा काही विभाजित करता तेव्हा उत्तर नेहमीच मूळ संख्या असेल. याचा अर्थ असा की जर भागाकार 1 असेल तर भाग भाग नेहमीच 10 ÷ 1 = 10 सारख्या लाभांशाच्या समान असेल.</p></li>
+ 	 <li><p>0 ने विभाजन अपरिभाषित आहे.</p></li>
+ 	 <li><p>समान लाभांश आणि विभाजकचे विभाजन नेहमीच 1. असते. उदाहरणार्थ: 4 ÷ 4 = 1. </p></li>
+  </ul>
+  <p>काही उदाहरणे:</p>
+  <p>(a)</p>
+  <center><img src="d7.png" alt="Example" width="600" height="400"/></center>
+  <p><i>तेथे १२ लाल मंडळे असल्याने ते तीन गटात विभागले जातात</i></p>
+    <p>(b)</p>
+  <center><img src="d8.png" alt="Example" width="600" height="400"/></center>
+<center>
+  <p> </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    
+<center>
+    <p>कृपया आपल्याला अधिक चांगल्या प्रकारे शिकण्यास मदत करण्यासाठी खाली एक यूट्यूब दुवा शोधा.</p>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/5VaqKu0ENlY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <p></p>
+  <p></p>
+  <p></p>
+
+
+<div class="footer">
+  <p>We hope you have had a nice time with us!</p>
+</div>
+
+</div>
+</body>
+  <script>
+  window.onscroll = function() {myFunction()};
+
+var topnav = document.getElementById("myHeader");
+var sticky = topnav.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    topnav.classList.add("sticky");
+  } else {
+    topnav.classList.remove("sticky");
+  }
+}
+</script>
+</center>
+</html>

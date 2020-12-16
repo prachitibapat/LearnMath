@@ -1,0 +1,375 @@
+<html>
+<head>
+  <title>Division - LearnMath!</title>
+  <link rel="icon" href="icon.png">
+  <meta charset="UTF-8">
+  <meta name="description" content="Site to learn Math">
+  <meta name="keywords" content="Addition, Subtraction, Multiplication, Division">
+  <meta name="author" content="Anirudh Bhattacharya, Mink Shethia, Prachiti Bapat, Saumya Shah">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<center>
+<style>
+  body {
+      margin: 0;
+
+  font-size: 18px;
+  }
+  p.a {
+  white-space: nowrap;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.topnav {
+  
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: #a8e6ce;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #dcedc2;
+  color: black;
+}
+.UpperTitle
+{
+    text-align: center;
+    padding: 40px 0;
+    font-size: 36px;
+    background-color: #000000;
+    font-weight:bold;
+    color: #d6b600;
+    border-radius: 0px;
+    position: rela1tive;
+}
+.UpperTitle img { position: absolute; left: 15px; top: 25px; }
+
+  .button {
+  display: block;
+  padding: 10px 6px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #000000;
+  background-color: #ffd3b5;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 5px #999;
+}
+
+
+.button:hover {background-color: #ffaaa6}
+
+.button:active {
+  background-color: #fffff0;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  }
+
+
+
+  .button1 {
+  display: block;
+  padding: 10px 6px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #000000;
+  background-color: #FFFFff;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 5px #999;
+}
+
+
+
+
+  img {
+  float: center;
+}
+}
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.header {
+  background-color: #d6b600;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px
+  padding: 25px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #ffffff;
+  color: #ffffff;
+}
+
+.menu li:hover {
+  background-color: #ffffff;
+}
+
+.footer {
+  background-color: #00f1ef;
+  color: #000000;
+  text-align: center;
+  font-size: 16px;
+  padding: 1px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 15%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 15%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+table, th,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+td{
+  border: 1px solid black;
+  text-align: center;
+  font-size: 35px;
+}
+</style>
+</head>
+<body>
+
+ <div class="UpperTitle">
+     <img src="Logo.png" alt="Our logo" width="152.24" height="80"/> <!-- 1.903 ratio-->
+    LearnMath!
+</div>
+<div class="topnav" id="myHeader">
+  <a href="home.html">Home</a>
+  <a class="active" href="learn.html">Learn</a>
+  <a href="tests.html">Tests</a>
+  <a href="calculator.html">Calculator</a>
+  <a href="contact_final.html">Contact Us</a>
+  <a href="divisionmarathi.html">मराठीमध्ये शिका!</a>
+</div>
+<p class="a">
+
+
+<div class="header">
+  <h1>Happy learning!</h1>
+</div>
+</center>
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+    <ul>
+      <li><a href="addition.html" class="button">Addition</a></li>
+      <li><a href="subtraction.html" class="button">Subtraction</a></li>
+      <li><a href="multiplication.html" class="button">Multiplication</a></li>
+      <li><a href="" class="button1">Divison</a></li>
+    </ul>
+  </div>
+
+  <div class="col-9 col-s-9">
+    <h1><p>Division</p></h1> 
+    <h2><p>The division is a method of distributing a group of things into equal parts. It is one of the four basic operations of arithmetic, which gives a fair result of sharing. </p></h2>
+    <h2><p>The division is an operation inverse of multiplication. </p></h2>
+	<h2><p>If 3 groups of 4 make 12 in multiplication; 12 divided into 3 equal groups give 4 in each group in division.</p>
+		</h2>
+	<h2><p>The main goal of the division is to see how many equal groups or how many in each group when sharing fairly.
+	</p>
+		</h2>
+    
+
+    <p><b>Ex: There are 16 balls and 4 boxes, how to put 16 balls into four equal sized boxes?</b> </p>
+      <center><img src="d1.png" alt="Example" width="650" height="200"/></center>
+      <p>So, 16 divided by 4 = ?</p>
+      <center><img src="d3.png" alt="Example" width="400" height="200"/></center>
+
+    <p> Therefore, 4 balls should be kept in each box.</p>
+    <p class = "a">
+    <p> <b> Mathematical notation for division 
+There are various signs which can be used to indicate division such as ÷, /.
+</b> </p>
+<p style="color:#FFffff";>For example:</p>
+  <ul>
+  <li><p>8 ÷ 2 = 4</p></li>
+  <li><p>8 / 2 = 4</p></li>
+</ul>
+    <p><b>Special names for each character in Division</b> </p>
+    
+  <p>Each part involved in a division equation has a special name.  </p>
+  <h1><p><i>Dividend ÷ divisor = quotient</i> </p></h1>
+  <center><img src="d2.png" alt="Example" width="400" height="200"/></center>
+  <p>Dividend: The dividend is the number that is being divided in the division process.</p>
+  <p>Divisor: The number by which dividend is being divided by is called divisor.</p>
+  <p>Quotient: A quotient is a result obtained in the division process.</p>
+  <p><b>Introduction to the remainder:</b> </p>
+  <p>The remainder is the portion of the dividend that is left over after division.  </p>
+  <p><b> Rules for signs of the result, assuming first number is larger than second: </b> </p>
+    <table style="width: 100%">
+    <tr>
+    <th><h3>Sign of the first number</h3></th>
+    <th><h3>Sign of the second number</h3></th> 
+    <th><h3>Sign of the result</th></h3></th>
+   </tr>
+    <tr>
+    <td>+</td>
+    <td>+</td>
+    <td> +</td>
+    </tr>
+    <tr>
+    <td> +</td>
+    <td> -</td>
+    <td> +</td>
+    </tr>
+    <tr>
+    <td> -</td>
+    <td> +</td>
+    <td> -</td>
+    </tr>
+    <tr>
+    <td> -</td>
+    <td> -</td>
+    <td> -</td>
+    </tr> 
+    </table>
+  <p> For example, </p>
+  <p> on dividing 83 by 2, there is a leftover of 1. </p>
+  <p>It means, 83 ÷ 2  = 41 </p>
+  <p>Here, r = 1, Here, ‘r’ is remainder. </p>
+  <p>Example:</p>
+  <p>There are 7 bones to share with 2 pups.</p>
+  <p>But 7 cannot be divided exactly into <b>2 groups</b>, so <b>each pup gets 3 bones</b>, but there will be <b>1 left over</b> which is the remainder.</p>
+  <p>Example 2:</p>
+  <p>The following image shows 14 fish from the larger bowl being equally distributed into two smaller bowls.</p>
+  <center><img src="d4.png" alt="Example" width="600" height="400"/></center>
+  <p><b>Division as repeated subtraction can be seen here</b>. As you can see, there are 14 fish in the larger bowl.</p>
+  <p style="color:#FFffff";>We have to divide them equally into the two smaller bowls.</p>
+  <p style="color:#FFffff";>By taking every fish (subtracting) from the large bowl and placing them in the small bowls alternately, we get 7 fish in each small bowl.</p>
+  <p>The division statement for the picture above can be written as</p>
+  <p><i>14÷2=7</i></p>
+  <p>Example 3:</p>
+  <p>Let us now divide this bar of chocolate having 12 pieces into 3 equal parts.</p>
+  <center><img src="d5.png" alt="Example" width="600" height="400"/></center>
+  <p>By dividing the bar of chocolate, we get 4 pieces in each part.</p>
+  <center><img src="d6.png" alt="Example" width="600" height="400"/></center>
+  <p>The division statement for the picture above can be written as</p>
+  <p><i>12÷3=4 </i></p>
+  <p><b>Special facts about division: </b></p>
+  <ul>
+  	 <li><p>When dividing something by 1, the answer will always be the original number. It means if the divisor is 1, the quotient will always be equal to the dividend such as 10 ÷ 1= 10.</p></li>
+ 	 <li><p>Division by 0 is undefined.</p></li>
+ 	 <li><p>The division of the same dividend and divisor is always 1. For example: 4 ÷ 4 = 1. </p></li>
+  </ul>
+  <p>A few illustrative examples:</p>
+  <p>(a)</p>
+  <center><img src="d7.png" alt="Example" width="600" height="400"/></center>
+  <p><i>As there are 12 red circles, they get divided into four groups of three.</i></p>
+    <p>(b)</p>
+  <center><img src="d8.png" alt="Example" width="600" height="400"/></center>
+<center>
+  <p> </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    
+<center>
+  <p>Please find below, a Youtube link to help you learn better.</p>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/5VaqKu0ENlY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <p></p>
+  <p></p>
+  <p></p>
+
+<div class="footer">
+  <p>We hope you have had a nice time with us!</p>
+</div>
+
+
+
+</div>
+</body>
+<script>
+  window.onscroll = function() {myFunction()};
+
+var topnav = document.getElementById("myHeader");
+var sticky = topnav.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    topnav.classList.add("sticky");
+  } else {
+    topnav.classList.remove("sticky");
+  }
+}
+</script>
+</center>
+</html>

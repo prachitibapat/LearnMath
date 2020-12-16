@@ -1,0 +1,373 @@
+<html>
+<head>
+  <title>Addition - LearnMath!</title>
+  <link rel="icon" href="icon.png">
+  <meta charset="UTF-8">
+  <meta name="description" content="Site to learn Math">
+  <meta name="keywords" content="Addition, Subtraction, Multiplication, Division">
+  <meta name="author" content="Anirudh Bhattacharya, Mink Shethia, Prachiti Bapat, Saumya Shah">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<center>
+<style>
+  body {
+  margin: 0;
+  font-size: 18px;
+  }
+  p.a {
+  white-space: nowrap;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.topnav {
+  
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: #a8e6ce;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #dcedc2;
+  color: black;
+}
+.UpperTitle
+{
+    text-align: center;
+    padding: 40px 0;
+    font-size: 36px;
+    background-color: #000000;
+    font-weight:bold;
+    color: #d6b600;
+    border-radius: 0px;
+    position: rela1tive;
+}
+.UpperTitle img { position: absolute; left: 15px; top: 25px; }
+
+
+  .button {
+  display: block; /* vertical*/
+  padding: 10px 6px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #000000;
+  background-color: #ffd3b5;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 5px #999;
+}
+
+
+.button:hover {background-color: #ffaaa6}
+
+.button:active {
+  background-color: #fffff0;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  }
+
+
+
+  .button1 {
+  display: block;
+  padding: 10px 6px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #000000;
+  background-color: #FFFFff;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 5px #999;
+}
+
+
+  img {
+  float: center;
+}
+}
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.header {
+  background-color: #d6b600;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px
+  padding: 25px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #ffffff;
+  color: #ffffff;
+}
+
+.menu li:hover {
+  background-color: #ffffff;
+}
+
+.footer {
+  background-color: #00f1ef;
+  color: #000000;
+  text-align: center;
+  font-size: 16px;
+  padding: 1px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 15%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 15%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+table, th,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.button8 {
+  display: inline-block;
+  padding: 02px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #ffffff;
+  background-color: #000000;
+  border: none;
+  border-radius: 1px;
+}
+td{
+  border: 1px solid black;
+  text-align: center;
+  font-size: 35px;
+}
+div.d {
+  text-align: right;
+} 
+</style>
+</head>
+<body>
+
+ <div class="UpperTitle">
+     <img src="Logo.png" alt="Our logo" width="152.24" height="80"/> <!-- 1.903 ratio-->
+    LearnMath!
+</div>
+<div class="topnav" id="myHeader">
+  <a href="home.html">Home</a>
+  <a class="active" href="learn.html">Learn</a>
+  <a href="tests.html">Tests</a>
+  <a href="calculator.html">Calculator</a>
+  <a href="contact_final.html">Contact Us</a>
+  <a href="additionmarathi.html">मराठीमध्ये शिका!</a>
+</div>
+<p class="a">
+
+
+<div class="header">
+  <h1>Happy learning!</h1>
+</div>
+</center>
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+    <ul>
+      <li><a href="" class="button1">Addition</a></li>
+      <li><a href="subtraction.html" class="button">Subtraction</a></li>
+      <li><a href="multiplication.html" class="button">Multiplication</a></li>
+      <li><a href="division.html" class="button">Divison</a></li>
+    </ul>
+  </div>
+
+  <div class="col-9 col-s-9">
+    <h1><p>Addition</p></h1> <!-- Add content of addition here-->
+    <h2><p>Addition means joining things together.It is represented by the ‘<b>+</b>’ sign. The addition of two whole numbers results in the total amount or sum of those values combined.</p></h2>
+    <p><b> A few illustrative questions to help you learn better:</b> </p>
+      <center><img src="2.png" alt="Example" width="550" height="250"/></center>
+      <center><img src="1.png" alt="Example" width="500" height="250"/></center> 
+
+    <p>Basic addition is a step on from counting and usually picked up easily by learners. </p>
+    <p>Once a learner can count to ten they can usually quickly perform additions up to ten. </p>
+    <p>For example, if a child is given two piles of books, one pile containing 4 books and the other containing 3 books, they can count all the books and come up with the answer: 7. </p>
+    <p>Finally when digits are recognised the same sum can be performed by looking at 3 + 4. </p>
+    <p><b> Rules for signs of the result, assuming first number is larger than second: </b> </p>
+    <table style="width: 100%">
+    <tr>
+    <th><h3>Sign of the first number</h3></th>
+    <th><h3>Sign of the second number</h3></th> 
+    <th><h3>Sign of the result</th></h3></th>
+   </tr>
+    <tr>
+    <td>+</td>
+    <td>+</td>
+    <td> +</td>
+    </tr>
+    <tr>
+    <td> +</td>
+    <td> -</td>
+    <td> +</td>
+    </tr>
+    <tr>
+    <td> -</td>
+    <td> +</td>
+    <td> -</td>
+    </tr>
+    <tr>
+    <td> -</td>
+    <td> -</td>
+    <td> -</td>
+    </tr> 
+    </table>
+
+    <p><b> Basic laws of Addition:</b> </p>
+    <dl>
+  <dt><p><i>Closure Property:</i></p></dt>
+  <dd><p>The sum of the addition of two or more whole numbers is always a whole number.   
+      
+      
+     
+   <p>Whole Number + Whole Number = Whole Number </p>
+    <p> For example, 1 + 2 = 3;</p>
+    <p> Here, both 1 and 2 whole numbers and their sum is 3, which also is a whole number. </p>
+    
+  </dd>
+  <dt><p><i>Commutative Property</i></p></dt>
+  <dd>
+
+    <p>When we add two or more whole numbers, their sum is the same regardless of the order of the addends. </p>
+   <p> Example 1: 5 + 4 = 4 + 5 = 9.</p>
+    <p> This means that we can add numbers in any order.The answer remains same regardless of the order.</p>
+  </p></dd>
+  <dt><p><i>Associative Property</i></p></dt>
+  <dd><p>When three or more numbers are added, the sum is the same regardless of the grouping of the addends.
+
+
+
+
+  <p>For example (4 + 2) + 3 = (4 + 3) + 2 </p>
+    <p>Here, the addends are 2, 4 and 3. So, as per the associative property, the sum of the three numbers will remain the same, no matter how we group them. </p>
+    <p> So, (2 + 1) + 3 = (1 + 3) + 2 = 6</p>
+  </p></dd>
+<dt><p><i>Additive Identity Property</i></p></dt>
+  <dd><p>When 0 is added to any number the result remain the same number.
+Adding 0 to a number doesn’t change the number. 
+  </p></dd>
+   </dl>
+
+ <p><b> And now, a few illustrative questions!</b> </p>
+  <center><img src="3.png" alt="Example" width="600" height="250"/></center>
+  <p><i> Answer is 9</i> </p>
+  <center><img src="4.png" alt="Example" width="600" height="250"/></center>
+    <p><i> Answer is 6</i> </p>
+
+  <center><img src="5.png" alt="Example" width="600" height="250"/></center>
+   <p><i> Answer is 8</i> </p>
+
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    
+<center>
+	<p>Please find below, a Youtube link to help you learn better.</p>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/E0sqtLygbV4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <p></p>
+  <p></p>
+  <p></p>
+
+<div class="footer">
+  <p>We hope you have had a nice time with us!</p>
+</div>
+
+</div>
+<script>
+    window.onscroll = function() {myFunction()};
+
+var topnav = document.getElementById("myHeader");
+var sticky = topnav.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    topnav.classList.add("sticky");
+  } else {
+    topnav.classList.remove("sticky");
+  }
+}
+  </script>
+</body>
+</center>
+</html>

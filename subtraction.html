@@ -1,0 +1,354 @@
+<html>
+<head>
+  <title>Subtraction - LearnMath!</title>
+  <link rel="icon" href="icon.png">
+  <meta charset="UTF-8">
+  <meta name="description" content="Site to learn Math">
+  <meta name="keywords" content="Addition, Subtraction, Multiplication, Division">
+  <meta name="author" content="Anirudh Bhattacharya, Mink Shethia, Prachiti Bapat, Saumya Shah">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<center>
+<style>
+  body {
+  margin: 0;
+  font-size: 18px;
+  }
+  p.a {
+  white-space: nowrap;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.topnav {
+  
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: #a8e6ce;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #dcedc2;
+  color: black;
+}
+.UpperTitle
+{
+    text-align: center;
+    padding: 40px 0;
+    font-size: 36px;
+    background-color: #000000;
+    font-weight:bold;
+    color: #d6b600;
+    border-radius: 0px;
+    position: rela1tive;
+}
+.UpperTitle img { position: absolute; left: 15px; top: 25px; }
+
+
+  .button {
+  display: block;
+  padding: 10px 6px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #000000;
+  background-color: #ffd3b5;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 5px #999;
+}
+
+
+.button:hover {background-color: #ffaaa6}
+
+.button:active {
+  background-color: #fffff0;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  }
+
+  .button1 {
+  display: block;
+  padding: 10px 6px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #000000;
+  background-color: #FFFFff;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 5px #999;
+}
+
+
+
+  img {
+  float: center;
+}
+}
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.header {
+  background-color: #d6b600;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px
+  padding: 25px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #ffffff;
+  color: #ffffff;
+}
+
+.menu li:hover {
+  background-color: #ffffff;
+}
+
+.footer {
+  background-color: #00f1ef;
+  color: #000000;
+  text-align: center;
+  font-size: 16px;
+  padding: 1px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 15%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 15%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+table, th,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+td{
+  border: 1px solid black;
+  text-align: center;
+  font-size: 35px;
+}
+</style>
+</head>
+<body>
+
+ <div class="UpperTitle">
+     <img src="Logo.png" alt="Our logo" width="152.24" height="80"/> <!-- 1.903 ratio-->
+    LearnMath!
+</div>
+<div class="topnav" id="myHeader">
+  <a href="home.html">Home</a>
+  <a class="active" href="learn.html">Learn</a>
+  <a href="tests.html">Tests</a>
+  <a href="calculator.html">Calculator</a>
+  <a href="contact_final.html">Contact Us</a>
+  <a href="subtractionmarathi.html">मराठीमध्ये शिका!</a>
+</div>
+<p class="a">
+
+
+<div class="header">
+  <h1>Happy learning!</h1>
+</div>
+</center>
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+    <ul>
+      <li><a href="addition.html" class="button">Addition</a></li>
+      <li><a href="" class="button1">Subtraction</a></li>
+      <li><a href="multiplication.html" class="button">Multiplication</a></li>
+      <li><a href="division.html" class="button">Divison</a></li>
+    </ul>
+  </div>
+
+  <div class="col-9 col-s-9">
+    <h1><p>Subtraction</p></h1> 
+    <h2><p>Subtraction means removing a small quantity from a larger quantity. After a number is subtracted, or removed from another, it becomes smaller.</p></h2>
+    <p><b> A few illustrative questions to help you learn better:</b> </p>
+      <center><img src="s1.png" alt="Example" width="650" height="250"/></center>
+
+    <p> Subtraction is the exact opposite of addition.  </p>
+    <p> While in addition, the total quantity increases, in subtraction, the total quantity decreases.</p>
+    <p> While addition is represented by the + sign, subtraction is represented by the - sign </p>
+    <p> Just like addition, subtraction too follows a few rules. The signs of a number are very important. For example:  </p>
+    <p> (-4) – (-3) = (-4) + (3) = -1 </p>
+    <p>and </p>
+    <p>(-2) – (-8) = (-2) + 8 = 6  </p>
+    <p><i> The – sign between the two brackets essentially unlocks the second bracket, and turns the positive number to a negative number. </i> </p>
+    <p> <b> The basic rules for subtraction of integers are as follows </b> </p>
+    <table style="width: 100%">
+    <tr>
+    <th><h3>Sign of the greater number</h3></th>
+    <th><h3>Sign of the smaller number</h3></th> 
+    <th><h3>Sign of the result</th></h3></th>
+   </tr>
+    <tr>
+    <td>+</td>
+    <td>+</td>
+    <td> +</td>
+    </tr>
+    <tr>
+    <td> +</td>
+    <td> -</td>
+    <td> +</td>
+    </tr>
+    <tr>
+    <td> -</td>
+    <td> +</td>
+    <td> -</td>
+    </tr>
+    <tr>
+    <td> -</td>
+    <td> -</td>
+    <td> -</td>
+    </tr> 
+    </table>
+    <p><b> Here is another image example to help you undertand:</b> </p>
+    <center><img src="s3.png" alt="Example" width="650" height="250"/></center>
+    <p><b> Basic laws of Addition:</b> </p>
+    <dl>
+  <dt><p><i>The Rules Don't Apply</i></p></dt>
+  <dd><p>Do you remember all of those rules we told you about for addition? We told you about the commutative law, associative law, and addition identities. Well, none of those laws work for subtraction. You cannot reorder, shuffle, or regroup subtraction problems in the same way as addition. You need to be especially careful with subtraction. For example: 
+    <p><b>20 - 8 - 6 = 6</b> is not</p>
+<p><b>8 - 6 - 20 = -18 </b> (you cannot rearrange and get the same answer)</p>
+<p>AND</p>
+<p><b>(20 - 8) - 6 = 6</b> is not</p>
+<p><b>20 - (8 - 6) = 18</b> (you cannot regroup and get the same answer)</p>
+
+  </p></dd>
+  <dt><p><i>Some Rules Do Apply</i></p></dt>
+  <dd><p>Some of the rules still work for subtraction. The order of operations that you use still works. Look for parentheses and work inside of those blocks first. Look at how these problems come out with very different answers if you ignore the parentheses.
+    <p>For example, (20 - 8) - (6 - 4) = 12 - 2 = 10 </p>
+    <p>rearranging, </p>
+    <p> 20 - 8 - 6 - 4 = 2
+</p>
+  </p></dd>
+  <dt><p><i>What About Mixing Operations?</i></p></dt>
+  <dd><p>Some of your homework problems will have addition and subtraction. Can you use any of the addition laws to solve those problems or make things easier? Yes. Let's look at an example...
+
+<p>5 + 6 - 8 - 2 + 9 -1 = ?</p>
+<p>So how can we work this out? Can we move things around? Yes, but only the values with addition symbols.</p>
+<p>5 + 6 - 8 - 2 + 9 -1 = 9 and solving further... </p>
+<p>5 + 6 + 9 - 8 - 2 - 1 = 9</p>
+
+  </p></dd>
+   </dl>
+
+  <p><b> And now, a few illustrative questions!</b> </p>
+
+  <center><img src="s4.png" alt="Example" width="600" height="250"/></center>
+    <p><i> Answer is 8</i> </p>
+
+  <center><img src="s5.png" alt="Example" width="600" height="250"/></center>
+    <p><i> Answer is 3</i> </p>
+
+<center>
+  <p> </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    
+<center>
+    <p>Please find below, a Youtube link to help you learn better.</p>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/ySkjVZ0ym7k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <p></p>
+  <p></p>
+  <p></p>
+
+<div class="footer">
+  <p>We hope you have had a nice time with us!</p>
+</div>
+
+</div>
+<script>
+  window.onscroll = function() {myFunction()};
+
+var topnav = document.getElementById("myHeader");
+var sticky = topnav.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    topnav.classList.add("sticky");
+  } else {
+    topnav.classList.remove("sticky");
+  }
+}
+</script>
+</body>
+</center>
+</html>
